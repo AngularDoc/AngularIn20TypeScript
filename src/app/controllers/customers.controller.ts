@@ -1,5 +1,6 @@
-module demoApp {
-    'use strict';
+import * as angular from 'angular';
+import { ICustomer, DataService } from '../services/data.service';
+
 
     class CustomersController {
         customers: ICustomer[] = null;
@@ -16,4 +17,4 @@ module demoApp {
     angular.module('demoApp')
            .controller('demoApp.CustomersController', CustomersController);
 
-}
+

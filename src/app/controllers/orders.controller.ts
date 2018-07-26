@@ -1,4 +1,5 @@
-module demoApp {
+import * as angular from 'angular';
+import { IOrder, DataService } from '../services/data.service';
 
     class OrdersController {
 
@@ -19,4 +20,4 @@ module demoApp {
     angular.module('demoApp')
         .controller('demoApp.OrdersController', OrdersController);
 
-}
+

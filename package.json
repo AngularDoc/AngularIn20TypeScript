@@ -22,7 +22,7 @@
   ],
   "license": "ISC",
   "dependencies": {
-
+    "angular": "~1.5.x"
   },
   "devDependencies": {
     "browser-sync": "^2.12.5",
@@ -33,9 +33,9 @@
     "gulp-sourcemaps": "^1.6.0",
     "gulp-tslint": "^5.0.0",
     "gulp-typescript": "^2.13.0",
-    "typescript": "^1.8.10",
-    "typings": "^0.8.1",
     "superstatic": "^4.0.2",
-    "tslint": "^3.8.1"
+    "tslint": "^3.8.1",
+    "typescript": "^1.8.10",
+    "typings": "^0.8.1"
   }
 }
